@@ -22,6 +22,7 @@ a {
     font-weight: 400;
     font-size: 24px;
     padding: 20px 0;
+   
     
 }
 
@@ -37,34 +38,41 @@ a {
     gap: 20px;
 }
 
-
-
-.iphone-14{
+.header-info{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
+
+}
+
+.iphone-14{
+    /* display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center; */
+   
     
-    width: 1400px;
-    height: 980px;
-    background-color: #F5F5F7;
+    /* width: 1400px;
+    height: 980px; */
+    /* background-color: #F5F5F7; */
 }
 
 .iphone-14-text{
     
-    width: 482px;
-    height: 77px;
+    /* width: 482px;
+    height: 77px; */
     font-family: 'Inter';
     font-weight: 700;
     font-size: 64px;
     line-height: 77px;
     color: #490E84;
+    margin: 20px 0;
 }
 
 .iphone-14-img{
-  
-    width: 937px;
-    height: 657px;
+    /* width: 937px;
+    height: 657px; */
    
 }
 
@@ -74,6 +82,7 @@ a {
     background: #490E84;
     border-radius: 30px;
     color: #FFFFFF;
+    margin: 20px 0;
 }
 
 
@@ -185,6 +194,10 @@ a {
 
 }
 
+p{
+    margin: 10px 0;
+}
+
 
 .section-img__photo{
     width: 240px;
@@ -195,17 +208,24 @@ a {
 }
 
 .section-text{
-    width: 56px;
-    height: 26px;
+    /* width: 56px;
+    height: 26px; */
     font-family: 'Inter';
     font-weight: 700;
     font-size: 20px;
     color: #0A0A0A;
+   
 } 
 
+/* .section-img__desc{
+   display: flex;
+   
+    
+}  */
+
 .section-text-rus{
-    width: 95px;
-    height: 18px;
+    /* width: 95px;
+    height: 18px; */
     font-family: 'Inter';
     font-weight: 400;
     font-size: 14px;
@@ -213,16 +233,23 @@ a {
 }
 
 .section-3{
-    
-
+    margin-top: 30px;
 }
 
 .form{
-    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     width: 600px;
     height: 600px;
     background: #574B63;
 
+}
+
+.form-order{
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -246,13 +273,19 @@ input{
     
   }
 
-
-.form-name{
-    margin: 20px 0;
+.form-main{
+    margin: 40px 0;
 }
 
-.form-feedback{
-    
+
+.form-name{
+    margin: 25px 0;
+}
+
+.form-info{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
     
 }
 
@@ -262,6 +295,7 @@ input{
     font-size: 14px;
     color: #FFFFFF;
     opacity: 0.5;
+    margin: 25px 0;
 }
 
 .form-order-text{
@@ -279,10 +313,13 @@ input{
 }
     
 footer{
-   
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    
+    background-color: #0A0A0A;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 24px;
+    padding: 20px 0;
+    
     
 }
 
@@ -290,9 +327,6 @@ footer{
     display: flex;
     justify-content:space-around;
     align-items: center;
-    
-    height: 150px;
-    background: #0A0A0A;
 }
 
 .footer-confid{
@@ -309,10 +343,6 @@ footer{
 }
 
 
-.footer-logo{
-    
-      
-}
 
 .footer-number{
     width: 235px;
