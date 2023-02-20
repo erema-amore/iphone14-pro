@@ -5,10 +5,7 @@
 
 
 .container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 113px;
+    margin: 0 auto;
     width: 1400px;
 }
 
@@ -24,17 +21,29 @@ a {
     font-family: 'Inter';
     font-weight: 400;
     font-size: 24px;
+    padding: 20px 0;
     
-    
+}
+
+.nav__info{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  
 }
 
 .nav-list{
     display: flex;
+    gap: 20px;
 }
 
 
 
 .iphone-14{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
     
     width: 1400px;
     height: 980px;
@@ -69,11 +78,7 @@ a {
 
 
 
-.section-1{
-    width: 1101px;
-    height: 533px;
-    
-}
+
 
 
 .section-main{
@@ -85,10 +90,18 @@ a {
     
 }
 
+.section-main-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
 .section-simple{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    
+   
 }
 
 
@@ -100,6 +113,7 @@ a {
     font-weight: 400;
     font-size: 14px;
     color: #0A0A0A;
+    margin: 10px 0;
 }
 
 .section-text-3{
@@ -109,6 +123,7 @@ a {
     font-weight: 400;
     font-size: 14px;
     color: #0A0A0A;
+    margin: 10px 0;
 }
 
 .section-text-4{
@@ -118,6 +133,7 @@ a {
     font-weight: 400;
     font-size: 14px;
     color: #0A0A0A;
+    margin: 10px 0;
 
 }
 
@@ -128,20 +144,24 @@ a {
     font-weight: 700;
     font-size: 20px;
     color: #0A0A0A;
+    margin: 10px 0;
 
 }
+
 
 .section-img{
     width: 350px;
     height: 370px;
-
-
 }
 
 
 
 
 .section-main-text-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
     font-family: 'Inter';
     font-weight: 700;
     font-size: 32px;
@@ -157,9 +177,10 @@ a {
 
 .section-img__text{
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+    
 
 
 }
@@ -192,14 +213,12 @@ a {
 }
 
 .section-3{
-    display: flex;
+    
 
 }
 
 .form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    
     width: 600px;
     height: 600px;
     background: #574B63;
@@ -268,6 +287,9 @@ footer{
 }
 
 .footer-block{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
     
     height: 150px;
     background: #0A0A0A;
