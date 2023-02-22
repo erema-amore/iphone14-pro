@@ -357,10 +357,21 @@ footer{
 }
 
 @media(max-width:620px){
+
+    .container{
+        margin: 0 auto;
+        width: 620px;
+    }
     .nav{
+        
         font-weight: 500;
         font-size: 15px;
         padding: 15px 0;
+    }
+
+    .nav-row{
+        width: 30px;
+        height: 15px;
     }
 
     .header{
@@ -383,6 +394,16 @@ footer{
         line-height: 77px;
         margin: 15px 0;
  
+    }
+
+    .click-chose{
+        width: 230px;
+        height: 40px;
+        background: #490E84;
+        border-radius: 30px;
+        color: #FFFFFF;
+        margin: 10px 0;
+       
     }
     .section-1{
         display: flex;
@@ -472,7 +493,79 @@ footer{
         display: flex;
         justify-content: space-around;
         align-items: center;
-
     }
+    .form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 310px;
+        height: 310px;
+            
+    }
+
+    .form-name{
+        width: 150px;
+        
+    }
+
+    .form-number{
+        width: 150px;
+    }
+
+    .form-feedback-text{
+        font-size: 11px;
+    }
+
+    .hero_endframe{
+        width: 310px;
+        height: 310px;
+    }
+
+    .form-main-text{
+        font-size: 20px;
+        font-weight: 500;
+        margin: 20px;
+    }
+
+    .input{
+        width: 50px;
+        border:none;
+        border-bottom:1px solid #F5F5F5;
+        outline:none;
+        color: #FFFFFF;
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 10px;
+    }
+
+    
+
+    .form-order-text{
+        width: 78px;
+        height: 18px;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 14px;
+        color: #490E84;
+        position: absolute;
+        width: 150px;
+        height: 30px;
+        background: #FFFFFF;
+        border-radius: 30px;
+    }
+
+    .footer-logo{
+        width: 30px;
+        height: 15px;
+    }
+
+    .footer-number-text{
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 15px;
+        color: #717171;
+    }
+    
 
 }
