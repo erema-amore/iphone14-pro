@@ -20,9 +20,7 @@ a {
     font-family: 'Inter';
     font-weight: 400;
     font-size: 24px;
-    padding: 20px 0;
-   
-    
+    padding: 20px 0; 
 }
 
 .nav__info{
@@ -42,25 +40,11 @@ a {
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-
 }
 
-.iphone-14{
-    /* display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center; */
-   
-    
-    /* width: 1400px;
-    height: 980px; */
-    /* background-color: #F5F5F7; */
-}
+
 
 .iphone-14-text{
-    
-    /* width: 482px;
-    height: 77px; */
     font-family: 'Inter';
     font-weight: 700;
     font-size: 64px;
@@ -69,11 +53,6 @@ a {
     margin: 20px 0;
 }
 
-.iphone-14-img{
-    /* width: 937px;
-    height: 657px; */
-   
-}
 
 .click-chose{
     width: 350px;
@@ -84,18 +63,12 @@ a {
     margin: 20px 0;
 }
 
-
-
-
-
-
 .section-main{
     font-family: 'Inter';
     font-weight: 700;
     font-size: 32px;
     line-height: 39px;
-    color: #717171;
-    
+    color: #717171;   
 }
 
 .section-main-text{
@@ -108,11 +81,7 @@ a {
 .section-simple{
     display: flex;
     justify-content: space-around;
-    
-   
 }
-
-
 
 .section-text-2{
     width: 559.07px;
@@ -142,7 +111,6 @@ a {
     font-size: 14px;
     color: #0A0A0A;
     margin: 10px 0;
-
 }
 
 .section-text-5{
@@ -153,17 +121,12 @@ a {
     font-size: 20px;
     color: #0A0A0A;
     margin: 10px 0;
-
 }
-
 
 .section-img{
     width: 350px;
     height: 370px;
 }
-
-
-
 
 .section-main-text-2{
     display: flex;
@@ -188,9 +151,6 @@ a {
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    
-
-
 }
 
 p{
@@ -207,8 +167,6 @@ p{
 }
 
 .section-text__eng{
-    /* width: 56px;
-    height: 26px; */
     font-family: 'Inter';
     font-weight: 700;
     font-size: 20px;
@@ -216,15 +174,7 @@ p{
    
 } 
 
-/* .section-img__desc{
-   display: flex;
-   
-    
-}  */
-
 .section-text-rus{
-    /* width: 95px;
-    height: 18px; */
     font-family: 'Inter';
     font-weight: 400;
     font-size: 14px;
@@ -243,7 +193,6 @@ p{
     width: 600px;
     height: 600px;
     background: #574B63;
-
 }
 
 .form-order{
@@ -257,7 +206,6 @@ p{
     font-weight: 700;
     font-size: 32px;
     color: #FFFFFF;
-
 }
 
 input{
@@ -283,9 +231,7 @@ input{
 
 .form-info{
     display: flex;
-    justify-content: center;
-    
-    
+    justify-content: center;    
 }
 
 .form-feedback-text{
@@ -312,14 +258,11 @@ input{
 }
     
 footer{
-    
     background-color: #0A0A0A;
     font-family: 'Inter';
     font-weight: 400;
     font-size: 24px;
-    padding: 20px 0;
-    
-    
+    padding: 20px 0;   
 }
 
 .footer-block{
@@ -338,15 +281,11 @@ footer{
     font-weight: 400;
     font-size: 14px;
     color: #717171;
-
 }
-
-
 
 .footer-number{
     width: 235px;
     height: 29px;
-    
 } 
 
 .footer-number-text{
@@ -369,22 +308,16 @@ footer{
         padding: 15px 0;
     }
 
-    .nav-row{
-        width: 30px;
-        height: 15px;
-    }
-
     .header{
         display: flex;
         justify-content: space-around;
         align-items: center;
-
     }
     .iphone-14{
         display: flex;
         justify-content: space-around;
         align-items: center;
-
+        margin: 10px;
     }
 
     .iphone-14-text{
@@ -393,7 +326,6 @@ footer{
         font-size: 50px;
         line-height: 77px;
         margin: 15px 0;
- 
     }
 
     .click-chose{
@@ -402,64 +334,38 @@ footer{
         background: #490E84;
         border-radius: 30px;
         color: #FFFFFF;
-        margin: 10px 0;
-       
+        margin: 20px 0; 
     }
-    .section-1{
+   
+    .section-block{
         display: flex;
         justify-content: space-around;
+        flex-wrap: wrap;
         align-items: center;
     }
-
-    /* .section-text{
-        width: 300px;
-        height: 300px;
-        font-size: 20px;
-        font-weight: 500;
-    } */
-
     .section-text-2{
-        width: 350px;
-        height: 10px;
         font-weight: 500;
-        font-size: 10px;
-        margin: 5px;
-        
+        font-size: 10px;   
     }
     
     .section-text-3{
-        width: 300px;
-        height: 30px;
         font-weight: 500;
-        font-size: 10px;
-        margin: 5px;
-        
+        font-size: 10px;    
     }
     
     .section-text-4{
-        width: 300px;
-        height: 30px;
         font-weight: 500;
         font-size: 10px;
-        margin: 5px;
-       
-    
     }
     
     .section-text-5{
-        width: 300px;
-        height: 30px;
         font-weight: 500;
         font-size: 10px;
-        margin: 5px;
-       
-    
     }
     .section-2{
         display: flex;
         justify-content: space-around;
-        align-items: center;
-        
+        align-items: center;  
     }
 
     .section-main-text-2{
@@ -505,8 +411,7 @@ footer{
     }
 
     .form-name{
-        width: 150px;
-        
+        width: 150px;   
     }
 
     .form-number{
@@ -525,7 +430,9 @@ footer{
     .form-main-text{
         font-size: 20px;
         font-weight: 500;
-        margin: 20px;
+    }
+    .form-main{
+        margin: 15px;
     }
 
     .input{
@@ -539,8 +446,6 @@ footer{
         font-size: 10px;
     }
 
-    
-
     .form-order-text{
         width: 78px;
         height: 18px;
@@ -553,11 +458,6 @@ footer{
         height: 30px;
         background: #FFFFFF;
         border-radius: 30px;
-    }
-
-    .footer-logo{
-        width: 30px;
-        height: 15px;
     }
 
     .footer-number-text{
